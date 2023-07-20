@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDDC70CB2A69C8C300647CB1 /* KlarnaTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC70CA2A69C8C300647CB1 /* KlarnaTestApp.swift */; };
+		FDDC70CD2A69C8C300647CB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC70CC2A69C8C300647CB1 /* ContentView.swift */; };
+		FDDC70CF2A69C8C500647CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDC70CE2A69C8C500647CB1 /* Assets.xcassets */; };
+		FDDC70D22A69C8C500647CB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDC70D12A69C8C500647CB1 /* Preview Assets.xcassets */; };
+		FDDC70DC2A69C8C500647CB1 /* KlarnaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC70DB2A69C8C500647CB1 /* KlarnaTestTests.swift */; };
+		FDDC70E62A69C8C500647CB1 /* KlarnaTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC70E52A69C8C500647CB1 /* KlarnaTestUITests.swift */; };
+		FDDC70E82A69C8C500647CB1 /* KlarnaTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC70E72A69C8C500647CB1 /* KlarnaTestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDDC70D82A69C8C500647CB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDDC70BF2A69C8C300647CB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDDC70C62A69C8C300647CB1;
+			remoteInfo = KlarnaTest;
+		};
+		FDDC70E22A69C8C500647CB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDDC70BF2A69C8C300647CB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDDC70C62A69C8C300647CB1;
+			remoteInfo = KlarnaTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDDC70C72A69C8C300647CB1 /* KlarnaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KlarnaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDC70CA2A69C8C300647CB1 /* KlarnaTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlarnaTestApp.swift; sourceTree = "<group>"; };
+		FDDC70CC2A69C8C300647CB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDDC70CE2A69C8C500647CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDDC70D12A69C8C500647CB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDDC70D72A69C8C500647CB1 /* KlarnaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlarnaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDC70DB2A69C8C500647CB1 /* KlarnaTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlarnaTestTests.swift; sourceTree = "<group>"; };
+		FDDC70E12A69C8C500647CB1 /* KlarnaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlarnaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDC70E52A69C8C500647CB1 /* KlarnaTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlarnaTestUITests.swift; sourceTree = "<group>"; };
+		FDDC70E72A69C8C500647CB1 /* KlarnaTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlarnaTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDDC70C42A69C8C300647CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDC70D42A69C8C500647CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDC70DE2A69C8C500647CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDDC70BE2A69C8C300647CB1 = {
+			isa = PBXGroup;
+			children = (
+				FDDC70C92A69C8C300647CB1 /* KlarnaTest */,
+				FDDC70DA2A69C8C500647CB1 /* KlarnaTestTests */,
+				FDDC70E42A69C8C500647CB1 /* KlarnaTestUITests */,
+				FDDC70C82A69C8C300647CB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDDC70C82A69C8C300647CB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDDC70C72A69C8C300647CB1 /* KlarnaTest.app */,
+				FDDC70D72A69C8C500647CB1 /* KlarnaTestTests.xctest */,
+				FDDC70E12A69C8C500647CB1 /* KlarnaTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDDC70C92A69C8C300647CB1 /* KlarnaTest */ = {
+			isa = PBXGroup;
+			children = (
+				FDDC70CA2A69C8C300647CB1 /* KlarnaTestApp.swift */,
+				FDDC70CC2A69C8C300647CB1 /* ContentView.swift */,
+				FDDC70CE2A69C8C500647CB1 /* Assets.xcassets */,
+				FDDC70D02A69C8C500647CB1 /* Preview Content */,
+			);
+			path = KlarnaTest;
+			sourceTree = "<group>";
+		};
+		FDDC70D02A69C8C500647CB1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDDC70D12A69C8C500647CB1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDDC70DA2A69C8C500647CB1 /* KlarnaTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDDC70DB2A69C8C500647CB1 /* KlarnaTestTests.swift */,
+			);
+			path = KlarnaTestTests;
+			sourceTree = "<group>";
+		};
+		FDDC70E42A69C8C500647CB1 /* KlarnaTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDDC70E52A69C8C500647CB1 /* KlarnaTestUITests.swift */,
+				FDDC70E72A69C8C500647CB1 /* KlarnaTestUITestsLaunchTests.swift */,
+			);
+			path = KlarnaTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDDC70C62A69C8C300647CB1 /* KlarnaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDC70EB2A69C8C500647CB1 /* Build configuration list for PBXNativeTarget "KlarnaTest" */;
+			buildPhases = (
+				FDDC70C32A69C8C300647CB1 /* Sources */,
+				FDDC70C42A69C8C300647CB1 /* Frameworks */,
+				FDDC70C52A69C8C300647CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KlarnaTest;
+			productName = KlarnaTest;
+			productReference = FDDC70C72A69C8C300647CB1 /* KlarnaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDDC70D62A69C8C500647CB1 /* KlarnaTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDC70EE2A69C8C500647CB1 /* Build configuration list for PBXNativeTarget "KlarnaTestTests" */;
+			buildPhases = (
+				FDDC70D32A69C8C500647CB1 /* Sources */,
+				FDDC70D42A69C8C500647CB1 /* Frameworks */,
+				FDDC70D52A69C8C500647CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDDC70D92A69C8C500647CB1 /* PBXTargetDependency */,
+			);
+			name = KlarnaTestTests;
+			productName = KlarnaTestTests;
+			productReference = FDDC70D72A69C8C500647CB1 /* KlarnaTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDDC70E02A69C8C500647CB1 /* KlarnaTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDC70F12A69C8C500647CB1 /* Build configuration list for PBXNativeTarget "KlarnaTestUITests" */;
+			buildPhases = (
+				FDDC70DD2A69C8C500647CB1 /* Sources */,
+				FDDC70DE2A69C8C500647CB1 /* Frameworks */,
+				FDDC70DF2A69C8C500647CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDDC70E32A69C8C500647CB1 /* PBXTargetDependency */,
+			);
+			name = KlarnaTestUITests;
+			productName = KlarnaTestUITests;
+			productReference = FDDC70E12A69C8C500647CB1 /* KlarnaTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDDC70BF2A69C8C300647CB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FDDC70C62A69C8C300647CB1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FDDC70D62A69C8C500647CB1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FDDC70C62A69C8C300647CB1;
+					};
+					FDDC70E02A69C8C500647CB1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FDDC70C62A69C8C300647CB1;
+					};
+				};
+			};
+			buildConfigurationList = FDDC70C22A69C8C300647CB1 /* Build configuration list for PBXProject "KlarnaTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDDC70BE2A69C8C300647CB1;
+			productRefGroup = FDDC70C82A69C8C300647CB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDDC70C62A69C8C300647CB1 /* KlarnaTest */,
+				FDDC70D62A69C8C500647CB1 /* KlarnaTestTests */,
+				FDDC70E02A69C8C500647CB1 /* KlarnaTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDDC70C52A69C8C300647CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDC70D22A69C8C500647CB1 /* Preview Assets.xcassets in Resources */,
+				FDDC70CF2A69C8C500647CB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDC70D52A69C8C500647CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDC70DF2A69C8C500647CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDDC70C32A69C8C300647CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDC70CD2A69C8C300647CB1 /* ContentView.swift in Sources */,
+				FDDC70CB2A69C8C300647CB1 /* KlarnaTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDC70D32A69C8C500647CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDC70DC2A69C8C500647CB1 /* KlarnaTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDC70DD2A69C8C500647CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDC70E62A69C8C500647CB1 /* KlarnaTestUITests.swift in Sources */,
+				FDDC70E82A69C8C500647CB1 /* KlarnaTestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDDC70D92A69C8C500647CB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDDC70C62A69C8C300647CB1 /* KlarnaTest */;
+			targetProxy = FDDC70D82A69C8C500647CB1 /* PBXContainerItemProxy */;
+		};
+		FDDC70E32A69C8C500647CB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDDC70C62A69C8C300647CB1 /* KlarnaTest */;
+			targetProxy = FDDC70E22A69C8C500647CB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FDDC70E92A69C8C500647CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDDC70EA2A69C8C500647CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDDC70EC2A69C8C500647CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KlarnaTest/Preview Content\"";
+				DEVELOPMENT_TEAM = JKT83J7842;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.KlarnaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDDC70ED2A69C8C500647CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KlarnaTest/Preview Content\"";
+				DEVELOPMENT_TEAM = JKT83J7842;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.KlarnaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDDC70EF2A69C8C500647CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKT83J7842;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.KlarnaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KlarnaTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KlarnaTest";
+			};
+			name = Debug;
+		};
+		FDDC70F02A69C8C500647CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKT83J7842;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.KlarnaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KlarnaTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KlarnaTest";
+			};
+			name = Release;
+		};
+		FDDC70F22A69C8C500647CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKT83J7842;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.KlarnaTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KlarnaTest;
+			};
+			name = Debug;
+		};
+		FDDC70F32A69C8C500647CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKT83J7842;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.KlarnaTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KlarnaTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDDC70C22A69C8C300647CB1 /* Build configuration list for PBXProject "KlarnaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDC70E92A69C8C500647CB1 /* Debug */,
+				FDDC70EA2A69C8C500647CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDC70EB2A69C8C500647CB1 /* Build configuration list for PBXNativeTarget "KlarnaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDC70EC2A69C8C500647CB1 /* Debug */,
+				FDDC70ED2A69C8C500647CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDC70EE2A69C8C500647CB1 /* Build configuration list for PBXNativeTarget "KlarnaTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDC70EF2A69C8C500647CB1 /* Debug */,
+				FDDC70F02A69C8C500647CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDC70F12A69C8C500647CB1 /* Build configuration list for PBXNativeTarget "KlarnaTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDC70F22A69C8C500647CB1 /* Debug */,
+				FDDC70F32A69C8C500647CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDDC70BF2A69C8C300647CB1 /* Project object */;
+}
