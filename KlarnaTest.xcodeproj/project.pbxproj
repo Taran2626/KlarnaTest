@@ -8,23 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		FDDC70CB2A69C8C300647CB1 /* KlarnaTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC70CA2A69C8C300647CB1 /* KlarnaTestApp.swift */; };
-		FDDC70CD2A69C8C300647CB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC70CC2A69C8C300647CB1 /* ContentView.swift */; };
+		FDDC70CD2A69C8C300647CB1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC70CC2A69C8C300647CB1 /* Home.swift */; };
 		FDDC70CF2A69C8C500647CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDC70CE2A69C8C500647CB1 /* Assets.xcassets */; };
 		FDDC70D22A69C8C500647CB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDC70D12A69C8C500647CB1 /* Preview Assets.xcassets */; };
 		FDDC70DC2A69C8C500647CB1 /* KlarnaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC70DB2A69C8C500647CB1 /* KlarnaTestTests.swift */; };
-		FDDC70E62A69C8C500647CB1 /* KlarnaTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC70E52A69C8C500647CB1 /* KlarnaTestUITests.swift */; };
-		FDDC70E82A69C8C500647CB1 /* KlarnaTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC70E72A69C8C500647CB1 /* KlarnaTestUITestsLaunchTests.swift */; };
+		FDDC70F62A69C9E400647CB1 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC70F52A69C9E400647CB1 /* LocationManager.swift */; };
+		FDDC70F92A69CC0400647CB1 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC70F82A69CC0400647CB1 /* Weather.swift */; };
+		FDDC70FC2A69CC3E00647CB1 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC70FB2A69CC3E00647CB1 /* WeatherViewModel.swift */; };
+		FDDC70FF2A69CD3500647CB1 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC70FE2A69CD3500647CB1 /* ErrorView.swift */; };
+		FDDC71022A69CDB300647CB1 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC71012A69CDB300647CB1 /* APIError.swift */; };
+		FDDC71042A69CDC500647CB1 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC71032A69CDC500647CB1 /* APIService.swift */; };
+		FDDC71062A69D50800647CB1 /* CustomStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC71052A69D50800647CB1 /* CustomStackView.swift */; };
+		FDDC710A2A69DC2700647CB1 /* HourlyForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC71092A69DC2700647CB1 /* HourlyForecast.swift */; };
+		FDDC710C2A6C822D00647CB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC710B2A6C822D00647CB1 /* ContentView.swift */; };
+		FDDC710E2A6DA1C000647CB1 /* LocationDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC710D2A6DA1C000647CB1 /* LocationDataView.swift */; };
+		FDDC71112A7078AB00647CB1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC71102A7078AB00647CB1 /* Extensions.swift */; };
+		FDDC71142A708BA700647CB1 /* DailyForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC71132A708BA700647CB1 /* DailyForecast.swift */; };
+		FDDC71162A71DBB600647CB1 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC71152A71DBB600647CB1 /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		FDDC70D82A69C8C500647CB1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FDDC70BF2A69C8C300647CB1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FDDC70C62A69C8C300647CB1;
-			remoteInfo = KlarnaTest;
-		};
-		FDDC70E22A69C8C500647CB1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FDDC70BF2A69C8C300647CB1 /* Project object */;
 			proxyType = 1;
@@ -36,14 +40,25 @@
 /* Begin PBXFileReference section */
 		FDDC70C72A69C8C300647CB1 /* KlarnaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KlarnaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDC70CA2A69C8C300647CB1 /* KlarnaTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlarnaTestApp.swift; sourceTree = "<group>"; };
-		FDDC70CC2A69C8C300647CB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDDC70CC2A69C8C300647CB1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		FDDC70CE2A69C8C500647CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDDC70D12A69C8C500647CB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FDDC70D72A69C8C500647CB1 /* KlarnaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlarnaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDC70DB2A69C8C500647CB1 /* KlarnaTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlarnaTestTests.swift; sourceTree = "<group>"; };
-		FDDC70E12A69C8C500647CB1 /* KlarnaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlarnaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDDC70E52A69C8C500647CB1 /* KlarnaTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlarnaTestUITests.swift; sourceTree = "<group>"; };
-		FDDC70E72A69C8C500647CB1 /* KlarnaTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlarnaTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FDDC70F52A69C9E400647CB1 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		FDDC70F82A69CC0400647CB1 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		FDDC70FB2A69CC3E00647CB1 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		FDDC70FE2A69CD3500647CB1 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		FDDC71012A69CDB300647CB1 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		FDDC71032A69CDC500647CB1 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		FDDC71052A69D50800647CB1 /* CustomStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStackView.swift; sourceTree = "<group>"; };
+		FDDC71092A69DC2700647CB1 /* HourlyForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyForecast.swift; sourceTree = "<group>"; };
+		FDDC710B2A6C822D00647CB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDDC710D2A6DA1C000647CB1 /* LocationDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataView.swift; sourceTree = "<group>"; };
+		FDDC71102A7078AB00647CB1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FDDC71122A70869800647CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FDDC71132A708BA700647CB1 /* DailyForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForecast.swift; sourceTree = "<group>"; };
+		FDDC71152A71DBB600647CB1 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +76,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDDC70DE2A69C8C500647CB1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,7 +84,6 @@
 			children = (
 				FDDC70C92A69C8C300647CB1 /* KlarnaTest */,
 				FDDC70DA2A69C8C500647CB1 /* KlarnaTestTests */,
-				FDDC70E42A69C8C500647CB1 /* KlarnaTestUITests */,
 				FDDC70C82A69C8C300647CB1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +93,6 @@
 			children = (
 				FDDC70C72A69C8C300647CB1 /* KlarnaTest.app */,
 				FDDC70D72A69C8C500647CB1 /* KlarnaTestTests.xctest */,
-				FDDC70E12A69C8C500647CB1 /* KlarnaTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +100,14 @@
 		FDDC70C92A69C8C300647CB1 /* KlarnaTest */ = {
 			isa = PBXGroup;
 			children = (
+				FDDC71122A70869800647CB1 /* Info.plist */,
+				FDDC710F2A70789400647CB1 /* Extensions */,
+				FDDC70F42A69C9D100647CB1 /* LocationManager */,
+				FDDC70F72A69CBEB00647CB1 /* Model */,
+				FDDC70FA2A69CC1800647CB1 /* ViewModels */,
+				FDDC70FD2A69CCD300647CB1 /* Views */,
+				FDDC71002A69CD9500647CB1 /* Networking */,
 				FDDC70CA2A69C8C300647CB1 /* KlarnaTestApp.swift */,
-				FDDC70CC2A69C8C300647CB1 /* ContentView.swift */,
 				FDDC70CE2A69C8C500647CB1 /* Assets.xcassets */,
 				FDDC70D02A69C8C500647CB1 /* Preview Content */,
 			);
@@ -118,13 +130,60 @@
 			path = KlarnaTestTests;
 			sourceTree = "<group>";
 		};
-		FDDC70E42A69C8C500647CB1 /* KlarnaTestUITests */ = {
+		FDDC70F42A69C9D100647CB1 /* LocationManager */ = {
 			isa = PBXGroup;
 			children = (
-				FDDC70E52A69C8C500647CB1 /* KlarnaTestUITests.swift */,
-				FDDC70E72A69C8C500647CB1 /* KlarnaTestUITestsLaunchTests.swift */,
+				FDDC70F52A69C9E400647CB1 /* LocationManager.swift */,
 			);
-			path = KlarnaTestUITests;
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		FDDC70F72A69CBEB00647CB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDDC70F82A69CC0400647CB1 /* Weather.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FDDC70FA2A69CC1800647CB1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FDDC70FB2A69CC3E00647CB1 /* WeatherViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FDDC70FD2A69CCD300647CB1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDDC710B2A6C822D00647CB1 /* ContentView.swift */,
+				FDDC70CC2A69C8C300647CB1 /* Home.swift */,
+				FDDC71152A71DBB600647CB1 /* SearchView.swift */,
+				FDDC71052A69D50800647CB1 /* CustomStackView.swift */,
+				FDDC710D2A6DA1C000647CB1 /* LocationDataView.swift */,
+				FDDC71092A69DC2700647CB1 /* HourlyForecast.swift */,
+				FDDC71132A708BA700647CB1 /* DailyForecast.swift */,
+				FDDC70FE2A69CD3500647CB1 /* ErrorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FDDC71002A69CD9500647CB1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FDDC71012A69CDB300647CB1 /* APIError.swift */,
+				FDDC71032A69CDC500647CB1 /* APIService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FDDC710F2A70789400647CB1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FDDC71102A7078AB00647CB1 /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +224,6 @@
 			productReference = FDDC70D72A69C8C500647CB1 /* KlarnaTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FDDC70E02A69C8C500647CB1 /* KlarnaTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FDDC70F12A69C8C500647CB1 /* Build configuration list for PBXNativeTarget "KlarnaTestUITests" */;
-			buildPhases = (
-				FDDC70DD2A69C8C500647CB1 /* Sources */,
-				FDDC70DE2A69C8C500647CB1 /* Frameworks */,
-				FDDC70DF2A69C8C500647CB1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FDDC70E32A69C8C500647CB1 /* PBXTargetDependency */,
-			);
-			name = KlarnaTestUITests;
-			productName = KlarnaTestUITests;
-			productReference = FDDC70E12A69C8C500647CB1 /* KlarnaTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +238,6 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					FDDC70D62A69C8C500647CB1 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = FDDC70C62A69C8C300647CB1;
-					};
-					FDDC70E02A69C8C500647CB1 = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = FDDC70C62A69C8C300647CB1;
 					};
@@ -221,7 +258,6 @@
 			targets = (
 				FDDC70C62A69C8C300647CB1 /* KlarnaTest */,
 				FDDC70D62A69C8C500647CB1 /* KlarnaTestTests */,
-				FDDC70E02A69C8C500647CB1 /* KlarnaTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,13 +279,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDDC70DF2A69C8C500647CB1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,8 +286,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDDC70CD2A69C8C300647CB1 /* ContentView.swift in Sources */,
+				FDDC71142A708BA700647CB1 /* DailyForecast.swift in Sources */,
+				FDDC70FC2A69CC3E00647CB1 /* WeatherViewModel.swift in Sources */,
+				FDDC710C2A6C822D00647CB1 /* ContentView.swift in Sources */,
+				FDDC710A2A69DC2700647CB1 /* HourlyForecast.swift in Sources */,
+				FDDC70FF2A69CD3500647CB1 /* ErrorView.swift in Sources */,
+				FDDC70F92A69CC0400647CB1 /* Weather.swift in Sources */,
+				FDDC70CD2A69C8C300647CB1 /* Home.swift in Sources */,
 				FDDC70CB2A69C8C300647CB1 /* KlarnaTestApp.swift in Sources */,
+				FDDC70F62A69C9E400647CB1 /* LocationManager.swift in Sources */,
+				FDDC71112A7078AB00647CB1 /* Extensions.swift in Sources */,
+				FDDC71162A71DBB600647CB1 /* SearchView.swift in Sources */,
+				FDDC71062A69D50800647CB1 /* CustomStackView.swift in Sources */,
+				FDDC71042A69CDC500647CB1 /* APIService.swift in Sources */,
+				FDDC71022A69CDB300647CB1 /* APIError.swift in Sources */,
+				FDDC710E2A6DA1C000647CB1 /* LocationDataView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,15 +312,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDDC70DD2A69C8C500647CB1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FDDC70E62A69C8C500647CB1 /* KlarnaTestUITests.swift in Sources */,
-				FDDC70E82A69C8C500647CB1 /* KlarnaTestUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -286,11 +319,6 @@
 			isa = PBXTargetDependency;
 			target = FDDC70C62A69C8C300647CB1 /* KlarnaTest */;
 			targetProxy = FDDC70D82A69C8C500647CB1 /* PBXContainerItemProxy */;
-		};
-		FDDC70E32A69C8C500647CB1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FDDC70C62A69C8C300647CB1 /* KlarnaTest */;
-			targetProxy = FDDC70E22A69C8C500647CB1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -420,11 +448,14 @@
 				DEVELOPMENT_TEAM = JKT83J7842;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KlarnaTest/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "KlarnaTest App needs to access your location data to get your location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,11 +480,14 @@
 				DEVELOPMENT_TEAM = JKT83J7842;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KlarnaTest/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "KlarnaTest App needs to access your location data to get your location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -507,42 +541,6 @@
 			};
 			name = Release;
 		};
-		FDDC70F22A69C8C500647CB1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JKT83J7842;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.KlarnaTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KlarnaTest;
-			};
-			name = Debug;
-		};
-		FDDC70F32A69C8C500647CB1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JKT83J7842;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.KlarnaTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KlarnaTest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -569,15 +567,6 @@
 			buildConfigurations = (
 				FDDC70EF2A69C8C500647CB1 /* Debug */,
 				FDDC70F02A69C8C500647CB1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FDDC70F12A69C8C500647CB1 /* Build configuration list for PBXNativeTarget "KlarnaTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FDDC70F22A69C8C500647CB1 /* Debug */,
-				FDDC70F32A69C8C500647CB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
