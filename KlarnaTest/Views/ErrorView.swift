@@ -15,7 +15,7 @@ struct ErrorView: View {
         Text(vm.errorMessage)
         Button {
             Task {
-                await vm.getCurrentWeather(locationManager: locationManager)
+                await vm.getCurrentWeather(from: locationManager.location)
             }
         } label: {
             Text("Try Again")

@@ -6,31 +6,57 @@
 //
 
 import XCTest
+import Combine
+import CoreLocation
 @testable import KlarnaTest
 
 final class KlarnaTestTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    var cancellables = Set<AnyCancellable>()
+    let latitude: CLLocationDegrees = 37.2
+    let longitude: CLLocationDegrees = 22.9
+
+    override func setUp() { }
+    
+    override func tearDown() {
+        cancellables = []
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func testFetchCurrentData_Success() async {
+        let expectation = XCTestExpectation(description: "Current Location Data is fetched successfully")
+        let sut = WeatherViewModel(service: MockAPIService())
+        await sut.getCurrentWeather(from: CLLocation(latitude: latitude,
+                                                     longitude: longitude))
+       
+        sut.$weather.sink { weather in
+            if weather.current.weather.first?.main.isEmpty == false {
+                expectation.fulfill()
+            }
+        }.store(in: &cancellables)
+        
+        await fulfillment(of: [expectation], timeout: 2)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testFetchCurrentData__Error() async {
+        let expectation = XCTestExpectation(description: "Current Location Data is not fetched successfully")
+        let sut = WeatherViewModel(service: MockAPIService(isSuccess: false))
+        await sut.getCurrentWeather(from: CLLocation(latitude: latitude,
+                                                     longitude: longitude))
+        
+        sut.$weather.sink { weather in
+            if weather.current.weather.first?.main.isEmpty == false {
+                XCTFail()
+            }
+        }.store(in: &cancellables)
+        
+        sut.$errorMessage.sink { errorMsg in
+            if !errorMsg.isEmpty {
+                expectation.fulfill()
+            }
+        }.store(in: &cancellables)
+        
+        await fulfillment(of: [expectation], timeout: 2)
     }
 
 }
+

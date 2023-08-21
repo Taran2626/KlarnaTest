@@ -66,11 +66,11 @@ struct Home: View {
                         }
                     })
                     .onChange(of: locationManager.location) { newValue in
-                        Task { await vm.getCurrentWeather(locationManager: locationManager) }
+                        Task { await vm.getCurrentWeather(from: locationManager.location) }
                     }
                     .task {
                         if viewDidLoad == false {
-                            await vm.getCurrentWeather(locationManager: locationManager)
+                            await vm.getCurrentWeather(from: locationManager.location)
                             viewDidLoad = true
                         }
                     }

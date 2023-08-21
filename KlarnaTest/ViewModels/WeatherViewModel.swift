@@ -6,11 +6,12 @@
 //
 
 import Foundation
+import CoreLocation
 
 protocol WeatherViewProtocol {
     var weather: Weather { get set }
     var isLoading: Bool { get }
-    func getCurrentWeather(locationManager: LocationManager) async
+    func getCurrentWeather(from location: CLLocation?) async
 }
 
 class WeatherViewModel: ObservableObject, WeatherViewProtocol {
@@ -25,10 +26,10 @@ class WeatherViewModel: ObservableObject, WeatherViewProtocol {
     }
 
     @MainActor
-    func getCurrentWeather(locationManager: LocationManager) async{
+    func getCurrentWeather(from location: CLLocation?) async{
 
-        guard let lat = locationManager.location?.coordinate.latitude.description,
-              let lon = locationManager.location?.coordinate.longitude.description else { return }
+        guard let lat = location?.coordinate.latitude.description,
+              let lon = location?.coordinate.longitude.description else { return }
         isLoading.toggle()
         defer {
             isLoading.toggle()

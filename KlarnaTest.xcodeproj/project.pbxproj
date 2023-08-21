@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FDD11A6B2A9410B6007DFE14 /* Current.json in Resources */ = {isa = PBXBuildFile; fileRef = FDD11A6A2A9410B5007DFE14 /* Current.json */; };
+		FDD11A6D2A9410E8007DFE14 /* Forecast.json in Resources */ = {isa = PBXBuildFile; fileRef = FDD11A6C2A9410E8007DFE14 /* Forecast.json */; };
+		FDD11A6F2A941151007DFE14 /* MockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD11A6E2A941151007DFE14 /* MockAPIService.swift */; };
+		FDD11A722A941227007DFE14 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD11A712A941227007DFE14 /* Bundle+Extension.swift */; };
+		FDD11A732A941548007DFE14 /* Current.json in Resources */ = {isa = PBXBuildFile; fileRef = FDD11A6A2A9410B5007DFE14 /* Current.json */; };
+		FDD11A742A94154F007DFE14 /* Forecast.json in Resources */ = {isa = PBXBuildFile; fileRef = FDD11A6C2A9410E8007DFE14 /* Forecast.json */; };
 		FDDC70CB2A69C8C300647CB1 /* KlarnaTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC70CA2A69C8C300647CB1 /* KlarnaTestApp.swift */; };
 		FDDC70CD2A69C8C300647CB1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC70CC2A69C8C300647CB1 /* Home.swift */; };
 		FDDC70CF2A69C8C500647CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDC70CE2A69C8C500647CB1 /* Assets.xcassets */; };
@@ -38,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FDD11A6A2A9410B5007DFE14 /* Current.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Current.json; sourceTree = "<group>"; };
+		FDD11A6C2A9410E8007DFE14 /* Forecast.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Forecast.json; sourceTree = "<group>"; };
+		FDD11A6E2A941151007DFE14 /* MockAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIService.swift; sourceTree = "<group>"; };
+		FDD11A712A941227007DFE14 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 		FDDC70C72A69C8C300647CB1 /* KlarnaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KlarnaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDC70CA2A69C8C300647CB1 /* KlarnaTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlarnaTestApp.swift; sourceTree = "<group>"; };
 		FDDC70CC2A69C8C300647CB1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -79,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FDD11A702A941210007DFE14 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FDD11A712A941227007DFE14 /* Bundle+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		FDDC70BE2A69C8C300647CB1 = {
 			isa = PBXGroup;
 			children = (
@@ -125,7 +143,11 @@
 		FDDC70DA2A69C8C500647CB1 /* KlarnaTestTests */ = {
 			isa = PBXGroup;
 			children = (
+				FDD11A702A941210007DFE14 /* Extension */,
 				FDDC70DB2A69C8C500647CB1 /* KlarnaTestTests.swift */,
+				FDD11A6A2A9410B5007DFE14 /* Current.json */,
+				FDD11A6C2A9410E8007DFE14 /* Forecast.json */,
+				FDD11A6E2A941151007DFE14 /* MockAPIService.swift */,
 			);
 			path = KlarnaTestTests;
 			sourceTree = "<group>";
@@ -267,7 +289,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDD11A742A94154F007DFE14 /* Forecast.json in Resources */,
 				FDDC70D22A69C8C500647CB1 /* Preview Assets.xcassets in Resources */,
+				FDD11A732A941548007DFE14 /* Current.json in Resources */,
 				FDDC70CF2A69C8C500647CB1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +300,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDD11A6D2A9410E8007DFE14 /* Forecast.json in Resources */,
+				FDD11A6B2A9410B6007DFE14 /* Current.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +334,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDD11A6F2A941151007DFE14 /* MockAPIService.swift in Sources */,
+				FDD11A722A941227007DFE14 /* Bundle+Extension.swift in Sources */,
 				FDDC70DC2A69C8C500647CB1 /* KlarnaTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
